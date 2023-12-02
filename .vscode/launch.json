@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MergerSortedArray",
+            "request": "launch",
+            "mainClass": "MergerSortedArray",
+            "projectName": "algo_72278867"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "algo_72278867"
+        },
+        {
+            "type": "java",
+            "name": "ApplyOperationsToAnArray",
+            "request": "launch",
+            "mainClass": "ApplyOperationsToAnArray",
+            "projectName": "algo_72278867"
+        },
+        {
+            "type": "java",
+            "name": "MoveZeroes",
+            "request": "launch",
+            "mainClass": "MoveZeroes",
+            "projectName": "algo_72278867"
+        },
+        {
+            "type": "java",
+            "name": "RemoveElement",
+            "request": "launch",
+            "mainClass": "RemoveElement",
+            "projectName": "algo_72278867"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicatesFromSortedArray",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesFromSortedArray",
+            "projectName": "algo_72278867"
+        },
+        {
+            "type": "java",
+            "name": "LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "LongestCommonPrefix",
+            "projectName": "algo_72278867"
+        },
+        {
+            "type": "java",
+            "name": "CollectionStuff",
+            "request": "launch",
+            "mainClass": "CollectionStuff",
+            "projectName": "algo_72278867"
+        }
+    ]
+}
