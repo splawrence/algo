@@ -10,11 +10,13 @@ public class MajorityElement {
     }
 
     private static int majorityElement(int[] nums) {
+        // count of each occurance in map
         Map<Integer, Integer> freq = new HashMap<>();
         for (int num : nums) {
             freq.put(num, freq.getOrDefault(num, 0) + 1);
         }
 
+        // get max value in
         Optional<Entry<Integer, Integer>> maxEntry = freq.entrySet().stream().max(Map.Entry.comparingByValue());
         return (maxEntry.isPresent()) ? maxEntry.get().getKey() : -1;
     }
