@@ -1,17 +1,20 @@
 public class ValidPalindrome {
 
     public static void main(String[] args) {
-        String s = "racecar";
+        String s = "Sir, I demand, I am a maid named Iris.";
+        // String s = "Dammit I'm Mad";
+        
+         
         String s2 = "A man, a plan, a canal: Panama";
         
         System.out.println(s + " is a valid palindrome: " + isPalindromeTwoPointer(s));
-        System.out.println(s2 + " is a valid palindrome: " + isPalindromeTwoPointer(s2));
+        // System.out.println(s2 + " is a valid palindrome: " + isPalindromeTwoPointer(s2));
 
-        System.out.println(s + " is a valid palindrome: " + isPalindromeStringBuilder(s));
-        System.out.println(s2 + " is a valid palindrome: " + isPalindromeStringBuilder(s2));
+        // System.out.println(s + " is a valid palindrome: " + isPalindromeStringBuilder(s));
+        // System.out.println(s2 + " is a valid palindrome: " + isPalindromeStringBuilder(s2));
 
-        System.out.println(s + " is a valid palindrome: " + isPalindromeUsingStreams(s));
-        System.out.println(s2 + " is a valid palindrome: " + isPalindromeUsingStreams(s2));
+        // System.out.println(s + " is a valid palindrome: " + isPalindromeUsingStreams(s));
+        // System.out.println(s2 + " is a valid palindrome: " + isPalindromeUsingStreams(s2));
     }
 
     private static boolean isPalindromeTwoPointer(String s) {
